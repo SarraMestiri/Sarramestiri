@@ -1,0 +1,104 @@
+*{
+    padding-left: 0px;
+    padding-right: 0px;
+}
+header{
+    background-color: darkolivegreen;
+    text-align: center;
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+.text-color{
+    color:aliceblue;
+}
+nav{
+    background-color:rgb(156, 190, 181);
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+nav ul {
+    list-style: none; 
+    display: flex; 
+    justify-content: center; 
+    padding: 0; 
+}
+
+nav ul li {
+    margin: 0 10px; 
+}
+
+nav ul li a {
+    text-decoration: none; 
+    padding: 10px 20px; 
+    border: 1px solid #000; 
+    border-radius: 12px;
+    color: #000; 
+    background-color: #f4f4f4; 
+    transition: background-color 0.3s ease; 
+}
+
+nav ul li a:hover {
+    background-color:darkolivegreen; 
+}
+#home{
+    background-color:rgb(214, 226, 223);
+    text-align: center;
+    padding-left: 20px;
+    padding-right: 200px;
+   border-radius: 20px;
+    padding-bottom: 4%;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+#products{
+    background-color: #f4f4f4;
+    padding-left: 20px;
+    padding-right: 200px;
+    padding-bottom: 4%;
+    margin-left: 40px;
+    margin-right: 40px;
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.3); 
+}
+.action{
+    background-color: #cad3ca;
+    padding-left: auto;
+    padding-right: auto;
+   border-radius: 20px;
+    padding-bottom: 4%;
+    margin-left: 200px;
+    
+    background-color: #ddd; 
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.3); 
+
+}
+.action:hover{
+    transform:scale(1.01);}
+#about{
+    text-align: center;
+    background-color: #ffffff;
+    padding:0%
+    padding-left: 20px;
+    padding-right: 200px;
+    padding-bottom: 4%;
+    padding-top: 0px;
+    margin-left: 40px;
+    margin-right: 40px;
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.3); 
+}
+#contact{
+    text-align: center;
+    background-color: #ffffff;
+    height:150px;
+    padding: 0%;
+    padding-left: 20px;
+    padding-right: 200px;
+    padding-bottom: 1%;
+    padding-top: 0px;
+    margin-left: 40px;
+    margin-right: 40px;
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.3); 
+}

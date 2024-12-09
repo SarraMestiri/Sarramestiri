@@ -1,0 +1,51 @@
+.ground{
+    background-color: lightskyblue;
+    padding:26px;
+    margin: 0;
+
+
+    
+}
+#color{
+    background-color: antiquewhite;
+    margin-top: -1%;
+}
+section{
+   margin:auto;
+    background-color: aliceblue;
+    
+}
+form{
+    font-size: 20px;
+    margin-top: 30px;
+    line-height: 2;
+    margin-left: auto;
+    margin-right: auto;
+   
+}
+.cadre {
+    border: 5px solid; 
+    padding: 20px; 
+    margin-left: 60%;
+    margin-right: 20%;
+    
+  }
+  .image{
+    background-image: url('images.jpeg');
+
+  }
+  .a:hover{
+background-color: cadetblue;
+  }
+  .star-rating {
+    direction:ltr;/*inverser lordre pour cliquer*/
+    justify-content:center;
+    display:inline-flex;
+    gap:0.2rem;/*1rem=16px*/
+  }
+  .star-rating input[type=radio]{
+    display:none;  }
+    .star-rating label:hover,
+    .star-rating label:hover~label{
+      color:darkgoldenrod;
+    }
